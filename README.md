@@ -40,13 +40,6 @@ samples:
 4. Multi-class (No hazard / Flood / Landslide)
 5. Multi-class with Multi-Hazard (No hazard / Flood / Landslide / Both)
 
-## Repository structure
-
-- `flood/` — the six models for flood susceptibility
-- `landslide/` — the six models for landslide susceptibility
-- `combined/` — combined and multi-class (multi-hazard) models
-- `comparison/` — cross-model ROC/AUC comparison for flood and landslide
-
 ## Conditioning factors
 
 17 predictor variables derived from topographic, hydrological, spectral, and
